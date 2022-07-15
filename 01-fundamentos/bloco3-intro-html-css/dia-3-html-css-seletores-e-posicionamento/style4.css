@@ -1,0 +1,32 @@
+div:hover {
+    border-width: thick;
+}
+#div1 {
+    background-color: blue;
+}
+#div2 {
+    background-color: yellow;
+}
+#div3 {
+    background-color: seagreen;
+}
+#divBlack {
+    color: aliceblue;
+    background-color: black;
+}
+#divWhite {
+    background-color: antiquewhite;
+}
+#primaria {
+    font: 160% sans-serif;
+    font-style: italic;
+}
+#secundaria {
+    font-style: italic;
+}
+#complementar{
+    font-style: oblique;
+}
+#escura {
+    font-style: bold;
+}

@@ -1,0 +1,26 @@
+h1{
+    size: 65px;
+    color: orange;
+}
+#plist {
+    background-color: blueviolet;
+}
+h1 {
+  font-family: sans-serif;
+}
+p {
+  font-weight: 600;
+  font-size: 48px;
+}
+body {
+  font-size: 16px;
+}
+#yellow {
+  background-color: yellow;
+}
+#red {
+  background-color: red;
+}
+#brown {
+  background-color: brown;
+}

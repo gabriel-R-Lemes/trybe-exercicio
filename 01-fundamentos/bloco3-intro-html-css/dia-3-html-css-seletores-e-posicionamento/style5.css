@@ -1,0 +1,46 @@
+ol {
+  background-color: yellow;
+}
+ol li:nth-child(2n + 1) {
+    text-transform:uppercase;
+}
+ol li:nth-child( 2n ) {
+	color: green;
+}
+h1, h2, h3, h4 {
+    color: red;
+}
+h1 em, h2 em, h3 em, h4 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold ;
+}
+.blue{
+    color: blue;
+}
+.java {
+    background-color: pink;
+}
+ul.aliados li:hover{
+    font-weight: bold;
+}
+#overflow:hover{
+    color: orange;
+}
+#w3s:hover{
+    color: green;
+}
+#mdn:hover{
+    color: black;
+}
+#devdocs:hover{
+    color: yellow;
+}
+#trybe:hover{
+    color: green;
+}

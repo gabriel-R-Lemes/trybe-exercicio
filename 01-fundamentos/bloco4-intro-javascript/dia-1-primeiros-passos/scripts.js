@@ -1,4 +1,8 @@
-const myName = "Gabriel Lemes";
-const birthCity = "Goiânia";
-let birthYear = 2030;
-console.log(myName, birthCity, birthYear);
+let patientId = 50;
+let isEnrolled = true;
+const patientInfo = {
+  firstName: 'Ana',
+  lastName: 'Santos',
+};
+const patientEmail = 'ana@email.com';
+console.log(typeof patientEmail, typeof patientId, typeof patientInfo, typeof isEnrolled);

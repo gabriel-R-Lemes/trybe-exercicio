@@ -44,3 +44,12 @@ function holiday (feriado){
   locButtonHoliday.appendChild(buttonHoliday);
 }
 holiday()
+
+function holidayColor(){
+  const holidayDays = document.querySelectorAll('.holiday');
+  for(let i = 0; i< holidayDays.length; i+=1){
+    holidayDays[i].style.color = 'blue';
+  }
+}
+const buttonHoliday = document.querySelector('#btn-holiday');
+buttonHoliday.addEventListener('click', holidayColor);

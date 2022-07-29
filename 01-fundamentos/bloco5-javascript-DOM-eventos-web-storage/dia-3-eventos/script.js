@@ -21,6 +21,13 @@ function createDaysOfTheWeek() {
     for(let i = 0; i<decemberDaysList.length; i +=1){
       const days1 = decemberDaysList[i];
       const dayListItem1 = document.createElement('li');
+      dayListItem1.className =('day')
+      if (days1 == 24 || days1 == 25 || days1 == 31){
+        dayListItem1.className = dayListItem1.className + ' holiday';
+      }else {}
+      if (days1 == 4 || days1 == 11 || days1 == 18 || days1 == 25){
+        dayListItem1.className = dayListItem1.className + ' friday';
+      }
       dayListItem1.innerText = days1;
 
       numberDays.appendChild(dayListItem1);
@@ -28,3 +35,4 @@ function createDaysOfTheWeek() {
 }
 
 createDays();
+

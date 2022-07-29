@@ -36,3 +36,11 @@ function createDaysOfTheWeek() {
 
 createDays();
 
+function holiday (feriado){
+  const locButtonHoliday = document.querySelector(".buttons-container");
+  const buttonHoliday = document.createElement('button');
+  buttonHoliday.id = 'btn-holiday';
+  buttonHoliday.innerText = 'Feriados!';
+  locButtonHoliday.appendChild(buttonHoliday);
+}
+holiday()

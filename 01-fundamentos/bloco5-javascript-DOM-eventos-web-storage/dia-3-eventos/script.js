@@ -97,3 +97,14 @@ function tasks(tarefa){
   dadElement.appendChild(newTask);
 }
 tasks('Cozinhar');
+
+function subtitleTasks(cor){
+  let dadElement = document.querySelector(".my-tasks")
+  const newDivSub = document.createElement('div')
+  newDivSub.className = 'task'
+  newDivSub.style.backgroundColor = cor;
+  newDivSub.style.width = '30px'
+  dadElement.appendChild(newDivSub);
+
+}
+subtitleTasks('red');

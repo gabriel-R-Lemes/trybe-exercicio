@@ -53,3 +53,12 @@ function holidayColor(){
 }
 const buttonHoliday = document.querySelector('#btn-holiday');
 buttonHoliday.addEventListener('click', holidayColor);
+
+function fridayBtn (string){
+  const locButtonHoliday = document.querySelector(".buttons-container");
+  const buttonFriday = document.createElement('button');
+  buttonFriday.id = 'btn-holiday';
+  buttonFriday.innerText = 'Sexta-Feira';
+  locButtonHoliday.appendChild(buttonFriday);
+}
+fridayBtn();

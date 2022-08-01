@@ -90,3 +90,10 @@ function dayMouseOut() {
 dayMouseOut();
 dayMouseOver();
 
+function tasks(tarefa){
+  let dadElement = document.querySelector('.my-tasks')
+  const newTask = document.createElement('span');
+  newTask.innerText = tarefa;
+  dadElement.appendChild(newTask);
+}
+tasks('Cozinhar');

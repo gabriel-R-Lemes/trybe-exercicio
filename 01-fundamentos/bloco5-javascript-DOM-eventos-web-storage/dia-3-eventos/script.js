@@ -57,8 +57,17 @@ buttonHoliday.addEventListener('click', holidayColor);
 function fridayBtn (string){
   const locButtonHoliday = document.querySelector(".buttons-container");
   const buttonFriday = document.createElement('button');
-  buttonFriday.id = 'btn-holiday';
+  buttonFriday.id = 'btn-friday';
   buttonFriday.innerText = 'Sexta-Feira';
   locButtonHoliday.appendChild(buttonFriday);
 }
 fridayBtn();
+
+function fridayDay (){
+  const fridayDays = document.querySelectorAll('.friday');
+  for (let i =0; i<fridayDays.length; i+=1){
+    fridayDays[i].innerText = 'SEXTOU!!';
+  }
+}
+const buttonFriday = document.querySelector("#btn-friday");
+buttonFriday.addEventListener('click', fridayDay);

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+</head>
+<body>
+  <header>
+      <h1>Concurso de Viagem TrybeTrip</h1>
+      <p>Entre e concorra a Viagem de Descanso mais merecida! ! !</p>
+  </header>
+
+  <form action="" method="get" class="form-trip">
+    <main>
+      <div class="name-mail">
+        <label for="full-name">Nome</label>
+        <input type="text" name="nome" id="full-name"
+        min="10" max="40" placeholder="Insira seu Nome Completo" autocomplete="off" required>
+        <br><br>
+        <label for="">Email</label>
+        <input type="text" name="email" id="email" min="10" max="50" placeholder="Insira seu Email"
+        autocomplete="off" required>
+      </div>
+      <br>
+      <div class="destiny">
+        <p>Destino Preferido</p>
+        <input type="radio" name="destiny" id="destiny1" value="Cidade">
+        <label for="destiny1">Cidade</label>
+        <input type="radio" name="destiny" id="destiny2" value="Campo">
+        <label for="destiny2">Campo</label>
+        <input type="radio" name="destiny" id="destiny3" value="Praia">
+        <label for="destiny3">Praia</label>
+        <input type="radio" name="destiny" id="destiny4" value="Montanhas">
+        <label for="destiny4">Montanhas</label>
+      </div>
+      <br>
+      <div class="text-area">
+        <label for="context"> Por que você deveria ser a pessoa Desenvolvedora 
+        a ganhar o concurso TrybeTrip</label>
+        <br>
+        <textarea name="textoConcurso" id="context" cols="30" rows="10" 
+        maxlength="500" required placeholder="Escreva aqui! Concorra!!"></textarea>
+      </div>
+      <br>
+      <div class="data">
+        <label for="data-Trip">Melhor data para Realizar sua viagem!</label>
+        <input type="date" name="data" id="data-Trip">
+      </div>
+      <div class="checkbox">
+        <label for="conset1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <input type="checkbox" name="consent" id="conset1">
+        <br>
+        <label for="conset2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        <input type="checkbox" name="consent" id="conset2" required>
+        <br>
+        <button id="send">Enviar</button>
+        <button id="clear">Limpar</button>
+      </div>
+    </main>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

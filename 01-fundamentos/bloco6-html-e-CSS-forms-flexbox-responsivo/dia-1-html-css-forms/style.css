@@ -14,7 +14,7 @@ body {
 }
 div {
   border: 1.5px solid navy;
-  width: 80%;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
   margin: 20px auto;
@@ -25,6 +25,7 @@ div {
 button {
   width: 30%;
   padding: 5px;
+  width: 22.5%;
 }
 
 #context {

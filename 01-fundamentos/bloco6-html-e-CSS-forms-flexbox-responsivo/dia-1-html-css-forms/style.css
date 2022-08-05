@@ -13,13 +13,13 @@ body {
     line-height: 1.3; 
 }
 div {
-  border: 1.5px solid navy;
+  border: 5px solid rgb(108, 184, 37);
   width: 45%;
   margin-left: auto;
   margin-right: auto;
   margin: 20px auto;
   border-radius: 10px;
-
+  background-color: rgb(64, 131, 189);
 }
 
 button {

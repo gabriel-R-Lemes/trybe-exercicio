@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TrybeTrip</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="./bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
   <header>
@@ -15,46 +17,46 @@
 
   <form action="" method="get" class="form-trip">
     <main>
-      <div class="name-mail">
+      <div class="form-group">
         <label for="full-name">Nome</label>
-        <input type="text" name="nome" id="full-name"
+        <input class="form-control" type="text" name="nome" id="full-name"
         maxlength="40" placeholder="Insira seu Nome Completo" autocomplete="off" required>
         <br>
         <label for="">Email</label>
-        <input type="text" name="email" id="email" maxlength="50" placeholder="Insira seu Email"
+        <input class="form-control" type="text" name="email" id="email" maxlength="50" placeholder="Insira seu Email"
         autocomplete="off" required>
       </div>
-      <div class="destiny">
+      <div class="form-group">
         <p>Destino Preferido</p>
-        <input type="radio" name="destiny" id="destiny1" value="Cidade">
+        <input class="" type="radio" name="destiny" id="destiny1" value="Cidade">
         <label for="destiny1">Cidade</label>
-        <input type="radio" name="destiny" id="destiny2" value="Campo">
+        <input class="" type="radio" name="destiny" id="destiny2" value="Campo">
         <label for="destiny2">Campo</label>
-        <input type="radio" name="destiny" id="destiny3" value="Praia">
+        <input class="" type="radio" name="destiny" id="destiny3" value="Praia">
         <label for="destiny3">Praia</label>
-        <input type="radio" name="destiny" id="destiny4" value="Montanhas">
-        <label for="destiny4">Montanhas</label>
+        <input class="" type="radio" name="destiny" id="destiny4" value="Montanhas">
+        <label for="destiny4">Montanhas</label>">
       </div>
-      <div class="text-area">
+      <div class="form-group">
         <label for="context"> Por que você deveria ser a pessoa Desenvolvedora 
         a ganhar o concurso TrybeTrip</label>
         <br>
-        <textarea name="textoConcurso" id="context" cols="30" rows="10" 
+        <textarea class="form-control" name="textoConcurso" id="context" cols="30" rows="10" 
         maxlength="500" required placeholder="Escreva aqui! Concorra!!"></textarea>
       </div>
-      <div class="data">
+      <div class="form-group">
         <label for="data-Trip">Melhor data para Realizar sua viagem!</label>
-        <input type="date" name="data" id="data-Trip">
+        <input class="form-control" type="date" name="data" id="data-Trip"> 
       </div>
-      <div class="checkbox">
+      <div class="form-group">
         <label for="conset1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
-        <input type="checkbox" name="consent" id="conset1">
+        <input class="" type="checkbox" name="consent" id="conset1">
         <br>
         <label for="conset2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
-        <input type="checkbox" name="consent" id="conset2" required>
-      </div>
-      <button id="send" type="submit">Enviar</button>
-      <button id="clear" type="reset">Limpar</button>
+        <input class="" type="checkbox" name="consent" id="conset2" required>">
+      </div class="form-group">
+      <button id="send" class="btn btn-success"type="submit">Enviar</button>
+      <button id="clear" class="btn btn-secondary" type="reset">Limpar</button>
       <br><br>
     </main>
   </form>
